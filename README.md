@@ -28,6 +28,8 @@ Dans un deuxième terminal, lancer le map_server:
 rosrun map_server map_server ~/map.yaml
 ```
 
+Note: : La map utilisé est fourni dans le fichier. Placer map.yaml et map.pgm dans le fichier HOME de votre PC. 
+
 ### Lancer les Turtlebots
 Il existe deux façons de lancer les turtlebots sur Gazebo.  
 1) Nous pouvons faire directement appel au launch file, et définir les positions initiales des robots:
