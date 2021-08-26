@@ -1,0 +1,6 @@
+<launch>
+<!-- rviz -->
+    <node pkg="rviz" type="rviz" name="rviz" required="true"
+          args="-d $(find amclmulti)/rviz/multi_nav.rviz"/>
+</launch>
+
