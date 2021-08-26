@@ -21,6 +21,13 @@ Dans un premier terminal, lancer le Turtle World vide Gazebo:
 roslaunch sma_if_multiturtle launch_gazebo.launch
 ```
 
+### Lancer map_server
+Dans un deuxième terminal, lancer le map_server:
+
+```
+rosrun map_server map_server ~/map.yaml
+```
+
 ### Lancer les Turtlebots
 Il existe deux façons de lancer les turtlebots sur Gazebo.  
 1) Nous pouvons faire directement appel au launch file, et définir les positions initiales des robots:
