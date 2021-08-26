@@ -52,6 +52,14 @@ Note: Chaque commande doit etre lancé dans un terminal différent.
 ```
 Note: Il faut avoir fait cd dans le directoire ou se trouve le Shell Script  
 
+Dans un autre terminal appeler /request_nomotion_update pour chaque robots:
+
+```
+rosservice call /tb3_0/request_nomotion_update 
+rosservice call /tb3_1/request_nomotion_update
+rosservice call /tb3_2/request_nomotion_update
+```  
+
 ### Lancer les noeud leader-follower
 Deux noeud leader-follower sont proposés.
 1) multi_leader_follower.py permet d'implémenter un train robot. Le premier argument est le nom du leader, le deuxième argument est le nom du follower.
